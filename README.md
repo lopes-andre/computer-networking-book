@@ -1,14 +1,7 @@
-<img src="img/book_cover.jpg" alt="Computer Networking: A Top-Down Approach, 8th Ed" style="float: left;" />:books: **Computer Networking: A Top-Down Approach, 8th Ed.**
 
-:writing_hand: James F. Kurose, Keith Ross
 
-:mortar_board: University of Massachusetts, Amherst
-
-:globe_with_meridians: [Pearson](https://www.pearson.com/us/higher-education/program/Kurose-Pearson-e-Text-Computer-Networking-Access-Card-8th-Edition/PGM2877610.html "Kurose & Ross, Computer Networking, 8th Edition | Pearson") 
-
-:copyright:2021
-
-*"This print textbook is available for students to rent for their classes. The Pearson print rental program provides students with affordable access to learning materials, so they come to class ready to succeed."*
+| <img src="img/book_cover.jpg" alt="Computer Networking: A Top-Down Approach, 8th Ed" /> | :books: **Computer Networking: A Top-Down Approach, 8th Ed.** <br />:writing_hand: James F. Kurose, Keith Ross<br />:mortar_board: University of Massachusetts, Amherst <br />:globe_with_meridians: [Pearson](https://www.pearson.com/us/higher-education/program/Kurose-Pearson-e-Text-Computer-Networking-Access-Card-8th-Edition/PGM2877610.html "Kurose & Ross, Computer Networking, 8th Edition \|Pearson") <br />:copyright:2021 <br />*This print textbook is available for students to rent for their classes. The Pearson print rental program provides students with affordable access to learning materials, so they come to class ready to succeed."* |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 ---------
 
