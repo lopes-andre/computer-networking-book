@@ -28,25 +28,27 @@ Please find below how this repo is going to be organized.
 
 >  :package: /computer-networking-book/
 >
->   ┣ :file_folder: img
+>  ┣ :file_folder: img
 >
->   ┣ :open_file_folder: practice
+>  ┣ :open_file_folder: practice
 >
->   ┃   ┗ :file_folder: wireshark-Labs
+>  ┃   ┗ :file_folder: wireshark-Labs
 >
->   ┃   ┗ :page_facing_up: [lab1-WebServer.py](practice/lab1-WebServer.py)
+>  ┃   ┗ :page_facing_up: [lab1-WebServer.py](practice/lab1-WebServer.py)
 >
->   ┃   ┗ :page_facing_up: ...
+>  ┃   ┗ :page_facing_up: ...
 >
->   ┃   ┗ :page_facing_up: `lastLab.py`
+>  ┃   ┗ :page_facing_up: `lastLab.py`
 >
->   ┣ :open_file_folder: theory
+>  ┣ :open_file_folder: theory
 >
->   ┃   ┗ :page_facing_up: [chapter-1.md](theory/chapter-1.md)
+>  ┃   ┗ :page_facing_up: [chapter-1.md](theory/chapter-1.md)
 >
->   ┃   ┗ :page_facing_up: ...
+>  ┃   ┗ :page_facing_up: [chapter-2.md](theory/chapter-2.md)
 >
->   ┃   ┗ :page_facing_up: `chapter-8.md`
+>  ┃   ┗ :page_facing_up: ...
 >
->   ┗ :page_facing_up: `README.md`
+>  ┃   ┗ :page_facing_up: `chapter-8.md`
+>
+>  ┗ :page_facing_up: `README.md`
 
