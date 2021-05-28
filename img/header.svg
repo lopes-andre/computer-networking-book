@@ -1,0 +1,19 @@
+<svg fill="none" viewBox="0 0 675 400" width="675" height="400" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="675" height="400">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+            img {
+                zoom: 35%;
+		float: left;
+            }
+            </style>
+            <img src="book_cover.jpg" alt="Computer Networking: A Top-Down Approach, 8th Ed" />
+           <p>📚 <strong>Computer Networking: A Top-Down Approach, 8th Ed.</strong></p>
+	   <p>✍️ James F. Kurose, Keith Ross</p>
+	   <p>🎓 University of Massachusetts, Amherst</p>
+	   <p>🌐 <a href='https://www.pearson.com/us/higher-education/program/Kurose-Pearson-e-Text-Computer-Networking-Access-Card-8th-Edition/PGM2877610.html' title='Kurose &amp; Ross, Computer Networking, 8th Edition | Pearson'>Pearson</a> </p>
+	   <p>©️2021</p><br />
+	   <p><em>&quot;This print textbook is available for students to rent for their classes. The Pearson print rental program provides students with affordable access to learning materials, so they come to class ready to succeed.&quot;</em></p>
+        </div>
+    </foreignObject>
+</svg>
