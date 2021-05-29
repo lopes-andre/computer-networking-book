@@ -1,5 +1,5 @@
 ''' Write a simple UDP server application that receives
-a message from an UDP client and gets a message (uppercase) and
+a message from an UDP client and gets a message (lowercase) and
 sets it to uppercase and sends back to the client application
 '''
 
