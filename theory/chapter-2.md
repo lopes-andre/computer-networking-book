@@ -6,41 +6,47 @@
 
 **Answer:**  
 
+| World Wide Web  | E-mail                   | File Transfer | Voice Over Internet | Domain Names Interpretation |
+| --------------- | ------------------------ | ------------- | ------------------- | --------------------------- |
+| HTTP<br />HTTPS | SMTP<br />POP3<br />IMAP | FTP           | VoIP                | DNS                         |
+
+
+
 <br />
 
 > 2. *What is the difference between network architecture and application architecture?*
 
-**Answer:** 
+**Answer:** The network architecture is related to how the network is structure in terms of hardware (what devices are being used and how they are connected together) and of software (eg.: five-layer Internet architecture or seven-layer OSI model); on the other hand, the application architecture is designed by the app's developers and defines how the applications will communicate to the others in the various hosts the server/clients will be running (eg.: via HTTP, HTTPS, a proprietary protocol, etc.).
 
 <br />
 
 > 3. *For a communication session between a pair of processes, which process is the client and which is the server?*
 
-**Answer:** 
+**Answer:** The server is the service provider, it has a fixed an known address, IP and domain name, it is always on and waiting for clients requests, which will be made by the client sending packages to start the communication with the server. A good example is a host running a Web Server such as Apache and another host running a client Browser such as Chrome, the client must always start the communication with the server, in this case by sending a HTTP request to stablish communication; in this model the server never has the initiative of starting a communication with a client and two clients never communicate to each other (eg.: two browsers will never directly communicate to each other).
 
 <br />
 
 > 4. *For a P2P file-sharing application, do you agree with the statement, “There is no notion of client and server sides of a communication session”? Why or why not?*
 
-**Answer:** 
+**Answer:** I agree. Because in the P2P every host may act as a client - by requesting the files to be shared - and as server - by sending the files to be shared - at the same time. So the roles of client and server are interchangeable within the same host.
 
 <br />
 
 > 5. *What information is used by a process running on one host to identify a process running on another host?*
 
-**Answer:** 
+**Answer:** A process communicates with another process running on a remote host via a software interface called ***socket*** sending/receiving packets. Every packet comes with a transport header which brings the sender and receiver identifications, such as IP address and communication port number.
 
 <br />
 
 > 6. *Suppose you wanted to do a transaction from a remote client to a server as fast as possible. Would you use UDP or TCP? Why?*
 
-**Answer:** 
+**Answer:** UDP, because even though UDP does not offer a reliable connection it is faster for not having the process of stablishing a connection the the remote host (handshaking).
 
 <br />
 
-> 7. *Referring to Figure 2.4, we see that none of the applications listed in Figure 2.4 requires both no data loss and timing. Can you conceive of an application that requires no data loss and that is also highly time-sensitive?*
+> 7. *Referring to Figure 2.4[^1], we see that none of the applications listed in Figure 2.4[^1] requires both no data loss and timing. Can you conceive of an application that requires no data loss and that is also highly time-sensitive?*
 
-**Answer:** 
+**Answer:** A messaging protocol the would need to be reliable and very fast; reliability would be necessary to make sure the message would get to its destination as it is supposed to be and it would be highly time-sensitive to keep the notion of instantaneous messaging exchange.
 
 <br />
 
@@ -48,17 +54,26 @@
 
 **Answer:** 
 
+|                        |        TCP         |        UDP         |
+| :--------------------: | :----------------: | :----------------: |
+| Reliable Data Transfer | :heavy_check_mark: |                    |
+|       Throughput       | :heavy_check_mark: |                    |
+|         Timing         |                    | :heavy_check_mark: |
+|        Security        | :heavy_check_mark: |                    |
+
+**Obs**: Neither TCP nor UDP provides security: the data sent from a process is the same data which travels the internet, in clear text. However, the Internet community has developed an enhancement for TCP called Transport Layer Security (TLS). TCP-enhanced-with-TLS provides encryption, data integrity, and end-point authentication.
+
 <br/>
 
 > 9. *Recall that TCP can be enhanced with TLS to provide process-to-process security services, including encryption. Does TLS operate at the transport layer or the application layer? If the application developer wants TCP to be enhanced with TLS, what does the developer have to do?*
 
-**Answer:** 
+**Answer:** TLS is not considered a transport protocol, such as TCP and UDP are, but instead it is an enhancement of the TCP protocol, with these enhancements being applied on the application layer. If the developer wants to use TCP-TLS it is necessary to  implement some TLS code (there are highly optimized libraries and classes available [[RFC 5246]](https://datatracker.ietf.org/doc/html/rfc5246)) in both, server and client side applications. TLS has its own socket API, very similar to the TCP socket API. When the application uses TLS, it sends the clear text into the TLS socket, which encrypts the data and passes it to the TCP socket to be transported. The receiving process receives the packets into the TLS socket, which decrypts the data.
 
 <br />
 
 > 10. *What is meant by a handshaking protocol?*
 
-**Answer:** 
+**Answer:** As TCP is a connection-oriented service, it has this primer steps in which the client and server exchange transport layer control information with each other before the application layer communication starts. If both client and server are available and this messages exchange succeeds, a TCP connection is stablished between the sockets of both processes. This is what is called *handshaking* between hosts, it is a metaphor where both hosts agree to stablish a TCP connection, so they handshake sealing the deal.
 
 <br />
 
@@ -168,3 +183,4 @@
 
 ---------
 
+[^1]: ![Figure 2.4: Requirements of selected network applications](../img/ref_fig2.4.jpg)
