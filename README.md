@@ -27,6 +27,10 @@ Please find below how this repo is going to be organized.
 >
 >  ┃   ┗ :file_folder: wireshark-Labs
 >
+>  ┃   ┗ :page_facing_up: [lab0-TCPClient.py](practice/lab0-TCPClient.py)
+>
+>  ┃   ┗ :page_facing_up: [lab0-TCPServer.py](practice/lab0-TCPServer.py)
+>
 >  ┃   ┗ :page_facing_up: [lab0-UDPClient.py](practice/lab0-UDPClient.py)
 >
 >  ┃   ┗ :page_facing_up: [lab0-UDPServer.py](practice/lab0-UDPServer.py)
