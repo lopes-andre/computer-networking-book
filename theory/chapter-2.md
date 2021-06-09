@@ -183,4 +183,4 @@
 
 ---------
 
-[^1]: ![Figure 2.4: Requirements of selected network applications](../img/ref_fig2.4.jpg)
+[^1]: ![Figure 2.4: Requirements of selected network applications](../img/ref_fig2.4.JPG)
